@@ -15,7 +15,7 @@ function sum(array) {
 
 function main() {
   let myArray = [1, 2, 6, 24, 96];
-  alert("The sum of the array is " + sum(myArray));
+  document.querySelector("#sum").innerText = sum(myArray);
 }
 
 window.onload = main;
